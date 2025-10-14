@@ -1,6 +1,8 @@
 public class Sheet {
+
     // Function to find the maximum subarray sum using Kadane's Algorithm
     public int maxSubArray(int[] nums) {
+        
         int currSum = 0;  // Stores current subarray sum
         int maxSum = Integer.MIN_VALUE;  // Stores maximum subarray sum (initialized to smallest possible value)
 
