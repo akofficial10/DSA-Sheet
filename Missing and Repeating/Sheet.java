@@ -29,6 +29,7 @@ class Sheet {
         int expectedSum = totalnums * (totalnums + 1) / 2;
 
         // Using the difference between expected and actual sums to find the missing number:
+        
         // expectedSum = actualSum - a + b  →  b = expectedSum + a - actualSum
         b = expectedSum + a - actualSum;
 

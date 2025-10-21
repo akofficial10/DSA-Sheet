@@ -14,7 +14,6 @@ class Sheet {
                 A[idx--] = B[j--];
             }
         }
-
         // If B still has remaining elements, copy them into A
         while (j >= 0) {
             A[idx--] = B[j--];

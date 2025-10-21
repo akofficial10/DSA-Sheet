@@ -20,7 +20,6 @@ class Sheet {
                 freq--;
             }
         }
-
         // Return the candidate (guaranteed majority element by problem constraints)
         return ans;
     }

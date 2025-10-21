@@ -41,7 +41,6 @@ class Sheet {
             // Add this row to result
             result.add(row);
         }
-
         // Return all rows
         return result;
     }
